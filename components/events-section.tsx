@@ -42,7 +42,7 @@ export function EventsSection() {
       const difference = eventDate.getTime() - now.getTime()
 
       if (difference <= 0) {
-        setTimeLeft("Event has concluded.")
+        setTimeLeft("Event has concluded")
         return
       }
 
