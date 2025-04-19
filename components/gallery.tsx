@@ -53,24 +53,133 @@ export function Gallery() {
     setCurrentVideo(null)
   }
 
-  const images: GalleryImage[] = [
-    {
-      src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/Group_photo.jpeg",
-      alt: "Community Group Photo",
-    },
-    {
-      src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/1.jpg",
-      alt: "Community Event 1",
-    },
-    {
-      src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/3.jpg",
-      alt: "Community Event 2",
-    },
-    {
-      src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/Group_photo_1.jpg",
-      alt: "Community Group Photo 2",
-    },
-  ]
+const images: GalleryImage[] = [
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/Group_photo.jpeg",
+    alt: "Community Group Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/1.jpg",
+    alt: "Community Event 1",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/3.jpg",
+    alt: "Community Event 2",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/Group_photo_1.jpg",
+    alt: "Community Group Photo 2",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_5728.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_5885.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6045.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6061.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6116.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6140.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6191.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6365.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6396.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6423.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6452.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6467.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6482.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6501.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6518.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6546.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6668.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6683.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6689.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6715.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6745.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6871.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6932.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6953.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6965.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7001.jpg",
+    alt: "Event Photo",
+  },
+  {
+    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7126.jpg",
+    alt: "Event Photo",
+  }
+]
+
 
   const video: GalleryVideo = {
     src: "https://www.dropbox.com/scl/fi/fyp811eadjrjww6d1btu7/Video.mp4?rlkey=xseg0a4rwxyrchbaup88ms9e3&raw=1",
