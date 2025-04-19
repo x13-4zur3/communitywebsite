@@ -42,7 +42,7 @@ export function EventsSection() {
       const difference = eventDate.getTime() - now.getTime()
 
       if (difference <= 0) {
-        setTimeLeft("Event has started")
+        setTimeLeft("Event has concluded.")
         return
       }
 
@@ -145,7 +145,7 @@ export function EventsSection() {
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <Badge variant="outline" className="bg-primary/10 text-primary">
-                      {timeLeft} remaining
+                      {timeLeft}!!
                     </Badge>
                   </div>
                   <h3 className="text-2xl font-bold">Nepali New Year 2082 Celebration</h3>
