@@ -91,20 +91,6 @@ export function GallerySection() {
     height: 3,
   },
   {
-    id: "image-5",
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7001.jpg",
-    alt: "Event Photo",
-    width: 4,
-    height: 3,
-  },
-  {
-    id: "image-6",
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7281.jpg",
-    alt: "Event Photo",
-    width: 4,
-    height: 3,
-  },
-  {
     id: "image-7",
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6546.jpg",
     alt: "Event Photo",
@@ -121,20 +107,6 @@ export function GallerySection() {
   {
     id: "image-9",
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7416.jpg",
-    alt: "Event Photo",
-    width: 4,
-    height: 3,
-  },
-  {
-    id: "image-10",
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_5745.jpg",
-    alt: "Event Photo",
-    width: 4,
-    height: 3,
-  },
-  {
-    id: "image-11",
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6181.jpg",
     alt: "Event Photo",
     width: 4,
     height: 3,
