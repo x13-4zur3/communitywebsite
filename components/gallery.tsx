@@ -95,10 +95,6 @@ const images: GalleryImage[] = [
     alt: "Event Photo",
   },
   {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6452.jpg",
-    alt: "Event Photo",
-  },
-  {
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6467.jpg",
     alt: "Event Photo",
   },
@@ -158,10 +154,6 @@ const images: GalleryImage[] = [
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7001.jpg",
     alt: "Event Photo",
   },
-  {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_7126.jpg",
-    alt: "Event Photo",
-  }
 ]
 
 
