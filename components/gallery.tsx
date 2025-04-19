@@ -71,14 +71,6 @@ const images: GalleryImage[] = [
     alt: "Community Group Photo 2",
   },
   {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_5728.jpg",
-    alt: "Event Photo",
-  },
-  {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_5885.jpg",
-    alt: "Event Photo",
-  },
-  {
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6045.jpg",
     alt: "Event Photo",
   },
@@ -88,14 +80,6 @@ const images: GalleryImage[] = [
   },
   {
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6116.jpg",
-    alt: "Event Photo",
-  },
-  {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6140.jpg",
-    alt: "Event Photo",
-  },
-  {
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6191.jpg",
     alt: "Event Photo",
   },
   {
