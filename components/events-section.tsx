@@ -69,7 +69,6 @@ export function EventsSection() {
       description:
         "Join us for a vibrant celebration of the Nepali New Year with traditional food, music, dance performances, and cultural activities for all ages.",
       image: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/Banner_New_Year_WEBSITE.png",
-      link: "https://forms.gle/c75HMpHbAv1D7X5u5",
       upcoming: true,
     },
     {
@@ -170,7 +169,7 @@ export function EventsSection() {
                 </div>
                 <Button asChild className="mt-6 rounded-full">
                   <a href="https://forms.gle/c75HMpHbAv1D7X5u5" target="_blank" rel="noopener noreferrer">
-                    Register Now
+                    Registration over.
                   </a>
                 </Button>
               </div>
