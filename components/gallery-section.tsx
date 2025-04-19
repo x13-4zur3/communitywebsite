@@ -133,13 +133,6 @@ export function GallerySection() {
     height: 3,
   },
   {
-    id: "image-16",
-    src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6885.jpg",
-    alt: "Event Photo",
-    width: 3,
-    height: 4,
-  },
-  {
     id: "image-17",
     src: "https://raw.githubusercontent.com/azure069/Comm-Web/main/images/NEW-YEAR-EVENT/IMG_6990.jpg",
     alt: "Event Photo",
