@@ -1,4 +1,4 @@
-# Nepali Community of Belleville - Website 🌍🇳🇵
+# Nepali Community of Belleville - Website 🌍
 
 This is the official website for the **Nepali Community of Belleville**, built to provide a modern and engaging platform for community events, updates, and interactions.
 
@@ -29,4 +29,4 @@ For any inquiries, visit our [website](https://nepalicommunityofbelleville.ca) o
 
 ---
 
-🛠️ Built with ❤️ by the Nepali Community of Belleville
+🛠️ Built with ❤️ by azure069
