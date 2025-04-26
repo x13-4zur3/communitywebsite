@@ -1,13 +1,13 @@
 #.gitignore
 
-# dependencies
+#dependencies
 /node_modules
 
-# next.js
+#next.js
 /.next/
 /out/
 
-# production
+#production
 /build
 
 # debug
@@ -16,12 +16,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
+#env files
 .env*
 
-# vercel
+#vercel
 .vercel
 
-# typescript
+#typescript
 *.tsbuildinfo
 next-env.d.ts
