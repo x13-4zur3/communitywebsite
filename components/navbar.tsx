@@ -145,7 +145,7 @@ export function Navbar() {
         </div>
       </header>
 
-      {/* Mobile Navigation Menu - Separated from header for better positioning */}
+      {/* Mobile Navigation Menu - Separated from the header for better positioning */}
       {isMobileMenuOpen && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-xl z-[90] md:hidden">
           <div className="flex items-center justify-center h-full">
